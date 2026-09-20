@@ -187,12 +187,15 @@ water-demand-forecasting/
 
 ## Dissertation
 
-**Predicting the Unpredictable with Bayesian Inference: Real Time Water Demand**
+### *Predicting the Unpredictable with Bayesian Inference: Real Time Water Demand*
 
-Mathematics & Data Science  
-University of Exeter
+Mathematics & Data Science — University of Exeter
 
-The research investigates the integration of modern sequential neural architectures with uncertainty quantification for real-world water-demand forecasting.
+The full dissertation provides further discussion of the theoretical
+background, experimental design, Bayesian inference methodology,
+results, limitations and future research.
+
+📄 **[Read the full dissertation](report/dissertation.pdf)**
 
 ---
 
