@@ -121,7 +121,9 @@ Model performance was evaluated using **Mean Absolute Error (MAE)**, **Mean Squa
 | Informer | 4 weeks | **0.860** | **1.00** | **0.99** |
 | Informer | 8 weeks | **0.863** | **1.08** | **0.99** |
 
-The Informer-based architecture produced the strongest reported performance across the tested forecasting horizons, while MC Dropout enabled uncertainty to be estimated alongside the point forecasts.
+Across the reported experiments, the Informer-based architecture achieved the lowest MAE and MSE and the highest R² across all three forecasting horizons.
+
+![Results](results/results.png)
 
 ---
 
