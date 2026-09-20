@@ -216,3 +216,32 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# Project-specific exclusions
+# ============================================================
+
+# Proprietary research data
+# Original South West Water data cannot be publicly distributed.
+data/*.csv
+data/*.xlsx
+data/*.xls
+data/*.parquet
+
+# Prevent accidental upload of common raw/processed data folders
+data/raw/*
+data/processed/*
+
+# Keep documentation inside the data directory
+!data/README.md
+
+# macOS system files
+.DS_Store
+__MACOSX/
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Environment variables / secrets
+.env
+.env.*
